@@ -1,3 +1,41 @@
 body{
     margin: 0;
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+h1, h2{
+    color: red;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    border: dashed;
+}
+
+nav{
+    margin-top: 40px;
+}
+aside{
+    position: absolute;
+    left:0;
+    height: 70vh;
+    width: 300px;
+    background-color: grey;
+}
+section{
+    position: absolute;
+    left: 300px;
+    max-width:60vw; 
+}
+footer{
+    position: absolute;
+    left: 300px;
+}
+button{
+    border: 0;
+    background-color:grey;
 }
